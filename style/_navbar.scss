@@ -26,6 +26,15 @@
     }
   }
 
+  .dropdown-menu {
+    .dropdown-item {
+      &:hover,
+      &.active {
+        color: #ff7158;
+      }
+    }
+  }
+
   .profile-picture {
     max-height: 45px;
   }
